@@ -52,7 +52,7 @@ class chooseFrame1(wx.Frame):
     def __init__(self):
         wx.Frame.__init__(self, None, -1, title=u"金融聚类分析器")
         self.SetBackgroundColour(wx.SystemSettings.GetColour(wx.SYS_COLOUR_WINDOW))
-        self.SetSize((650, 500))
+        self.SetSize((820, 500))
         self.Center()
 
         # 容器
@@ -89,36 +89,38 @@ class chooseFrame1(wx.Frame):
         self.m_staticText26 = wx.StaticText(self, -1, u'域名知识产权数：')
 
         # 输入框
-        self.tc1 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC01')
-        self.tc2 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC02', style=wx.TE_READONLY)
-        self.tc3 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC03', style=wx.TE_READONLY)
-        self.tc4 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC04', style=wx.TE_READONLY)
-        self.tc5 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC05', style=wx.TE_READONLY)
-        self.tc6 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC06', style=wx.TE_READONLY)
-        self.tc7 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC07', style=wx.TE_READONLY)
-        self.tc8 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC08', style=wx.TE_READONLY)
-        self.tc9 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC09', style=wx.TE_READONLY)
-        self.tc10 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC10', style=wx.TE_READONLY)
-        self.tc11 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC11', style=wx.TE_READONLY)
-        self.tc12 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC12', style=wx.TE_READONLY)
-        self.tc13 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC13', style=wx.TE_READONLY)
-        self.tc14 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC14', style=wx.TE_READONLY)
-        self.tc15 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC15', style=wx.TE_READONLY)
-        self.tc16 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC16', style=wx.TE_READONLY)
-        self.tc17 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC17', style=wx.TE_READONLY)
-        self.tc18 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC18', style=wx.TE_READONLY)
-        self.tc19 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC19', style=wx.TE_READONLY)
-        self.tc20 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC20', style=wx.TE_READONLY)
-        self.tc21 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC21', style=wx.TE_READONLY)
-        self.tc22 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC22', style=wx.TE_READONLY)
-        self.tc23 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC23', style=wx.TE_READONLY)
-        self.tc24 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC24', style=wx.TE_READONLY)
-        self.tc25 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC25', style=wx.TE_READONLY)
-        self.tc26 = wx.TextCtrl(self, -1, '', size=(100, -1), name='TC26', style=wx.TE_READONLY)
+        self.tc1 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC01')
+        self.tc2 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC02', style=wx.TE_READONLY)
+        self.tc3 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC03', style=wx.TE_READONLY)
+        self.tc4 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC04', style=wx.TE_READONLY)
+        self.tc5 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC05', style=wx.TE_READONLY)
+        self.tc6 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC06', style=wx.TE_READONLY)
+        self.tc7 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC07', style=wx.TE_READONLY)
+        self.tc8 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC08', style=wx.TE_READONLY)
+        self.tc9 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC09', style=wx.TE_READONLY)
+        self.tc10 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC10', style=wx.TE_READONLY)
+        self.tc11 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC11', style=wx.TE_READONLY)
+        self.tc12 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC12', style=wx.TE_READONLY)
+        self.tc13 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC13', style=wx.TE_READONLY)
+        self.tc14 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC14', style=wx.TE_READONLY)
+        self.tc15 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC15', style=wx.TE_READONLY)
+        self.tc16 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC16', style=wx.TE_READONLY)
+        self.tc17 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC17', style=wx.TE_READONLY)
+        self.tc18 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC18', style=wx.TE_READONLY)
+        self.tc19 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC19', style=wx.TE_READONLY)
+        self.tc20 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC20', style=wx.TE_READONLY)
+        self.tc21 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC21', style=wx.TE_READONLY)
+        self.tc22 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC22', style=wx.TE_READONLY)
+        self.tc23 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC23', style=wx.TE_READONLY)
+        self.tc24 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC24', style=wx.TE_READONLY)
+        self.tc25 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC25', style=wx.TE_READONLY)
+        self.tc26 = wx.TextCtrl(self, -1, '', size=(140, -1), name='TC26', style=wx.TE_READONLY)
 
         # 按钮
         btn_search = wx.Button(self, -1, u'查询', pos=(255, 410), size=(100, 25))
+        btn_clear = wx.Button(self, -1, u'清空', pos=(400, 410), size=(100, 25))
         btn_search.Bind(wx.EVT_BUTTON, self.search)
+        btn_clear.Bind(wx.EVT_BUTTON, self.clear)
 
         # 将控件添加到容器中
         fgSizer1.Add(self.m_staticText1, 0, wx.TOP, 5)
@@ -183,8 +185,63 @@ class chooseFrame1(wx.Frame):
         self.Bind(wx.EVT_CLOSE, self.OnClose)
 
     def search(self, evt):
-        text = self.tc1.GetValue()
+        text = self.tc1.GetValue() # 获取公司名
+        # 下面是用来设置标签的
         self.tc2.SetValue(text)
+        self.tc2.SetValue('')
+        self.tc3.SetValue('')
+        self.tc4.SetValue('')
+        self.tc5.SetValue('')
+        self.tc6.SetValue('')
+        self.tc7.SetValue('')
+        self.tc8.SetValue('')
+        self.tc9.SetValue('')
+        self.tc10.SetValue('')
+        self.tc11.SetValue('')
+        self.tc12.SetValue('')
+        self.tc13.SetValue('')
+        self.tc14.SetValue('')
+        self.tc15.SetValue('')
+        self.tc16.SetValue('')
+        self.tc17.SetValue('')
+        self.tc18.SetValue('')
+        self.tc19.SetValue('')
+        self.tc20.SetValue('')
+        self.tc21.SetValue('')
+        self.tc22.SetValue('')
+        self.tc23.SetValue('')
+        self.tc24.SetValue('')
+        self.tc25.SetValue('')
+        self.tc26.SetValue('')
+
+    # 清空按钮函数
+    def clear(self, evt):
+        self.tc1.SetValue('')
+        self.tc2.SetValue('')
+        self.tc3.SetValue('')
+        self.tc4.SetValue('')
+        self.tc5.SetValue('')
+        self.tc6.SetValue('')
+        self.tc7.SetValue('')
+        self.tc8.SetValue('')
+        self.tc9.SetValue('')
+        self.tc10.SetValue('')
+        self.tc11.SetValue('')
+        self.tc12.SetValue('')
+        self.tc13.SetValue('')
+        self.tc14.SetValue('')
+        self.tc15.SetValue('')
+        self.tc16.SetValue('')
+        self.tc17.SetValue('')
+        self.tc18.SetValue('')
+        self.tc19.SetValue('')
+        self.tc20.SetValue('')
+        self.tc21.SetValue('')
+        self.tc22.SetValue('')
+        self.tc23.SetValue('')
+        self.tc24.SetValue('')
+        self.tc25.SetValue('')
+        self.tc26.SetValue('')
 
     def OnClose(self, evt):
         '''关闭窗口事件函数'''
@@ -195,6 +252,7 @@ class chooseFrame1(wx.Frame):
 
 
 class chooseFrame2(wx.Frame):
+
     def __init__(self):
         wx.Frame.__init__(self, None, -1, title=u"金融聚类分析器")
         self.SetBackgroundColour(wx.SystemSettings.GetColour(wx.SYS_COLOUR_WINDOW))
@@ -330,65 +388,145 @@ class chooseFrame2(wx.Frame):
 
         self.Bind(wx.EVT_CLOSE, self.OnClose)
 
+    # 查询按钮函数
     def search(self, evt):
         if self.tc1.GetValue() != '':
-            self.tc1.SetValue(cf.newcreditgrade(int(self.tc1.GetValue()))[0])
-        if self.tc2.GetValue() != '':
-            self.tc2.SetValue(cf.newalttime(int(self.tc2.GetValue()))[0])
-        if self.tc3.GetValue() != '':
-            self.tc3.SetValue(cf.newestdate(int(self.tc3.GetValue()))[0])
-        if self.tc4.GetValue() != '':
-            self.tc4.SetValue(cf.newregcap(int(self.tc4.GetValue()))[0])
-        if self.tc5.GetValue() != '':
-            self.tc5.SetValue(cf.newshopnum(int(self.tc5.GetValue()))[0])
-        if self.tc6.GetValue() != '':
-            self.tc6.SetValue(cf.newbranchnum(int(self.tc6.GetValue()))[0])
-        if self.tc7.GetValue() != '':
-            splitlist = self.tc7.GetValue().split("，")
-            self.tc7.SetValue(cf.newcontribution(float(splitlist[0]), float(splitlist[1]))[0])
-        if self.tc8.GetValue() != '':
-            splitlist = self.tc8.GetValue().split("，")
-            self.tc8.SetValue(cf.newyear(float(splitlist[0]), float(splitlist[1]))[0])
-        if self.tc9.GetValue() != '':
-            self.tc9.SetValue(cf.newguarantee(float(self.tc9.GetValue()))[0])
-        if self.tc10.GetValue() != '':
-            self.tc10.SetValue(cf.newinvestment(int(self.tc10.GetValue()))[0])
-        if self.tc11.GetValue() != '':
-            self.tc11.SetValue(cf.newbid(int(self.tc11.GetValue()))[0])
-        if self.tc12.GetValue() != '':
-            self.tc12.SetValue(cf.newrecruit(int(self.tc12.GetValue()))[0])
-        if self.tc13.GetValue() != '':
-            self.tc13.SetValue(cf.newinsurance(int(self.tc13.GetValue()))[0])
-        if self.tc14.GetValue() != '':
-            splitlist = self.tc14.GetValue().split("，")
-            self.tc14.SetValue(
-                cf.newsecurity(int(splitlist[0]), int(splitlist[1]), int(splitlist[2]), int(splitlist[3]),
-                               int(splitlist[4]))[0])
-        if self.tc15.GetValue() != '':
-            self.tc15.SetValue(cf.newquality(float(self.tc15.GetValue()))[0])
-        if self.tc16.GetValue() != '':
-            self.tc16.SetValue(cf.newamount(float(self.tc16.GetValue()))[0])
-        if self.tc17.GetValue() != '':
-            self.tc17.SetValue(cf.newabnormal(int(self.tc17.GetValue()))[0])
-        if self.tc18.GetValue() != '':
-            self.tc18.SetValue(cf.newpunish(int(self.tc18.GetValue()))[0])
-        if self.tc19.GetValue() != '':
-            self.tc19.SetValue(cf.newrightpledge(int(self.tc19.GetValue()))[0])
-        if self.tc20.GetValue() != '':
-            self.tc20.SetValue(cf.newtaxunpaid(float(self.tc20.GetValue()))[0])
-        if self.tc21.GetValue() != '':
-            self.tc21.SetValue(cf.newcreditgrade(int(self.tc21.GetValue()))[0])
-        if self.tc22.GetValue() != '':
-            self.tc22.SetValue(cf.newcredit(int(self.tc22.GetValue()))[0])
-        if self.tc23.GetValue() != '':
-            self.tc23.SetValue(cf.newbrandnum(int(self.tc23.GetValue()))[0])
-        if self.tc24.GetValue() != '':
-            self.tc24.SetValue(cf.newcopynum(int(self.tc24.GetValue()))[0])
-        if self.tc25.GetValue() != '':
-            self.tc25.SetValue(cf.newpatentnum(int(self.tc25.GetValue()))[0])
-        if self.tc26.GetValue() != '':
-            self.tc26.SetValue(cf.newdomnum(int(self.tc26.GetValue()))[0])
+            # 用于存放新生成标签的列表
+            sign = []
+            sign.append(self.tc1.GetValue())
+            if self.tc2.GetValue() != '':
+                self.tc2.SetValue(cf.newalttime(int(self.tc2.GetValue()))[0])
+                sign.append(self.tc2.GetValue())
+            else:
+                sign.append('')
+            if self.tc3.GetValue() != '':
+                self.tc3.SetValue(cf.newestdate(int(self.tc3.GetValue()))[0])
+                sign.append(self.tc3.GetValue())
+            else:
+                sign.append('')
+            if self.tc4.GetValue() != '':
+                self.tc4.SetValue(cf.newregcap(int(self.tc4.GetValue()))[0])
+                sign.append(self.tc4.GetValue())
+            else:
+                sign.append('')
+            if self.tc5.GetValue() != '':
+                self.tc5.SetValue(cf.newshopnum(int(self.tc5.GetValue()))[0])
+                sign.append(self.tc5.GetValue())
+            else:
+                sign.append('')
+            if self.tc6.GetValue() != '':
+                self.tc6.SetValue(cf.newbranchnum(int(self.tc6.GetValue()))[0])
+                sign.append(self.tc6.GetValue())
+            else:
+                sign.append('')
+            if self.tc7.GetValue() != '':
+                splitlist = self.tc7.GetValue().split("，")
+                self.tc7.SetValue(cf.newcontribution(float(splitlist[0]), float(splitlist[1]))[0])
+                sign.append(self.tc7.GetValue())
+            else:
+                sign.append('')
+            if self.tc8.GetValue() != '':
+                splitlist = self.tc8.GetValue().split("，")
+                self.tc8.SetValue(cf.newyear(float(splitlist[0]), float(splitlist[1]))[0])
+                sign.append(self.tc8.GetValue())
+            else:
+                sign.append('')
+            if self.tc9.GetValue() != '':
+                self.tc9.SetValue(cf.newguarantee(float(self.tc9.GetValue()))[0])
+                sign.append(self.tc9.GetValue())
+            else:
+                sign.append('')
+            if self.tc10.GetValue() != '':
+                self.tc10.SetValue(cf.newinvestment(int(self.tc10.GetValue()))[0])
+                sign.append(self.tc10.GetValue())
+            else:
+                sign.append('')
+            if self.tc11.GetValue() != '':
+                self.tc11.SetValue(cf.newbid(int(self.tc11.GetValue()))[0])
+                sign.append(self.tc11.GetValue())
+            else:
+                sign.append('')
+            if self.tc12.GetValue() != '':
+                self.tc12.SetValue(cf.newrecruit(int(self.tc12.GetValue()))[0])
+                sign.append(self.tc12.GetValue())
+            else:
+                sign.append('')
+            if self.tc13.GetValue() != '':
+                self.tc13.SetValue(cf.newinsurance(int(self.tc13.GetValue()))[0])
+                sign.append(self.tc13.GetValue())
+            else:
+                sign.append('')
+            if self.tc14.GetValue() != '':
+                splitlist = self.tc14.GetValue().split("，")
+                self.tc14.SetValue(cf.newsecurity(float(splitlist[0]), float(splitlist[1]), float(splitlist[2]), float(splitlist[3]), float(splitlist[4]))[0])
+                sign.append(self.tc14.GetValue())
+            else:
+                sign.append('')
+            if self.tc15.GetValue() != '':
+                self.tc15.SetValue(cf.newquality(float(self.tc15.GetValue()))[0])
+                sign.append(self.tc15.GetValue())
+            else:
+                sign.append('')
+            if self.tc16.GetValue() != '':
+                self.tc16.SetValue(cf.newamount(float(self.tc16.GetValue()))[0])
+                sign.append(self.tc16.GetValue())
+            else:
+                sign.append('')
+            if self.tc17.GetValue() != '':
+                self.tc17.SetValue(cf.newabnormal(int(self.tc17.GetValue()))[0])
+                sign.append(self.tc17.GetValue())
+            else:
+                sign.append('')
+            if self.tc18.GetValue() != '':
+                self.tc18.SetValue(cf.newpunish(int(self.tc18.GetValue()))[0])
+                sign.append(self.tc18.GetValue())
+            else:
+                sign.append('')
+            if self.tc19.GetValue() != '':
+                self.tc19.SetValue(cf.newrightpledge(int(self.tc19.GetValue()))[0])
+                sign.append(self.tc19.GetValue())
+            else:
+                sign.append('')
+            if self.tc20.GetValue() != '':
+                self.tc20.SetValue(cf.newtaxunpaid(float(self.tc20.GetValue()))[0])
+                sign.append(self.tc20.GetValue())
+            else:
+                sign.append('')
+            if self.tc21.GetValue() != '':
+                self.tc21.SetValue(cf.newcreditgrade(int(self.tc21.GetValue()))[0])
+                sign.append(self.tc21.GetValue())
+            else:
+                sign.append('')
+            if self.tc22.GetValue() != '':
+                self.tc22.SetValue(cf.newcredit(int(self.tc22.GetValue()))[0])
+                sign.append(self.tc22.GetValue())
+            else:
+                sign.append('')
+            if self.tc23.GetValue() != '':
+                self.tc23.SetValue(cf.newbrandnum(int(self.tc23.GetValue()))[0])
+                sign.append(self.tc23.GetValue())
+            else:
+                sign.append('')
+            if self.tc24.GetValue() != '':
+                self.tc24.SetValue(cf.newcopynum(int(self.tc24.GetValue()))[0])
+                sign.append(self.tc24.GetValue())
+            else:
+                sign.append('')
+            if self.tc25.GetValue() != '':
+                self.tc25.SetValue(cf.newpatentnum(int(self.tc25.GetValue()))[0])
+                sign.append(self.tc25.GetValue())
+            else:
+                sign.append('')
+            if self.tc26.GetValue() != '':
+                self.tc26.SetValue(cf.newdomnum(int(self.tc26.GetValue()))[0])
+                sign.append(self.tc26.GetValue())
+            else:
+                sign.append('')
 
+            # 测试用的print，国伟到时候把这个sign的值传到数据库就行，空缺的都是用''占位
+            print(sign)
+
+    # 清空按钮函数
     def clear(self, evt):
         self.tc1.SetValue('')
         self.tc2.SetValue('')
