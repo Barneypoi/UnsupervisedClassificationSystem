@@ -345,12 +345,12 @@ class chooseFrame2(wx.Frame):
             self.tc6.SetValue(cf.newbranchnum(int(self.tc6.GetValue()))[0])
         if self.tc7.GetValue() != '':
             splitlist = self.tc7.GetValue().split("，")
-            self.tc7.SetValue(cf.newcontribution(int(splitlist[0]), int(splitlist[1]))[0])
+            self.tc7.SetValue(cf.newcontribution(float(splitlist[0]), float(splitlist[1]))[0])
         if self.tc8.GetValue() != '':
             splitlist = self.tc8.GetValue().split("，")
-            self.tc8.SetValue(cf.newyear(int(splitlist[0]), int(splitlist[1]))[0])
+            self.tc8.SetValue(cf.newyear(float(splitlist[0]), float(splitlist[1]))[0])
         if self.tc9.GetValue() != '':
-            self.tc9.SetValue(cf.newguarantee(int(self.tc9.GetValue()))[0])
+            self.tc9.SetValue(cf.newguarantee(float(self.tc9.GetValue()))[0])
         if self.tc10.GetValue() != '':
             self.tc10.SetValue(cf.newinvestment(int(self.tc10.GetValue()))[0])
         if self.tc11.GetValue() != '':
@@ -361,11 +361,13 @@ class chooseFrame2(wx.Frame):
             self.tc13.SetValue(cf.newinsurance(int(self.tc13.GetValue()))[0])
         if self.tc14.GetValue() != '':
             splitlist = self.tc14.GetValue().split("，")
-            self.tc14.SetValue(cf.newsecurity(int(splitlist[0]), int(splitlist[1]), int(splitlist[2]), int(splitlist[3]), int(splitlist[4]))[0])
+            self.tc14.SetValue(
+                cf.newsecurity(int(splitlist[0]), int(splitlist[1]), int(splitlist[2]), int(splitlist[3]),
+                               int(splitlist[4]))[0])
         if self.tc15.GetValue() != '':
-            self.tc15.SetValue(cf.newquality(int(self.tc15.GetValue()))[0])
+            self.tc15.SetValue(cf.newquality(float(self.tc15.GetValue()))[0])
         if self.tc16.GetValue() != '':
-            self.tc16.SetValue(cf.newamount(int(self.tc16.GetValue()))[0])
+            self.tc16.SetValue(cf.newamount(float(self.tc16.GetValue()))[0])
         if self.tc17.GetValue() != '':
             self.tc17.SetValue(cf.newabnormal(int(self.tc17.GetValue()))[0])
         if self.tc18.GetValue() != '':
@@ -373,7 +375,7 @@ class chooseFrame2(wx.Frame):
         if self.tc19.GetValue() != '':
             self.tc19.SetValue(cf.newrightpledge(int(self.tc19.GetValue()))[0])
         if self.tc20.GetValue() != '':
-            self.tc20.SetValue(cf.newtaxunpaid(int(self.tc20.GetValue()))[0])
+            self.tc20.SetValue(cf.newtaxunpaid(float(self.tc20.GetValue()))[0])
         if self.tc21.GetValue() != '':
             self.tc21.SetValue(cf.newcreditgrade(int(self.tc21.GetValue()))[0])
         if self.tc22.GetValue() != '':
